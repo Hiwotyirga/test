@@ -1,0 +1,276 @@
+#contianer{
+    /* background-color: aquamarine; */
+
+}
+body{
+    background-color:blanchedalmond;
+}
+#head{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    /* border-style: groove; */
+    
+}
+/* #nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    margin: 10px;
+
+} */
+
+#nav {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute space between logo and menu */
+    /* margin: ; */
+    gap: 500px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 100px;
+}
+
+#logo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-style: groove;
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px; 
+    text-align: center; 
+    line-height: 100px; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    background-color: grey;
+    color: white;
+    margin-left: 50px;
+}
+a{
+    font-weight: bold;
+    font-size: large;
+}
+a:hover{
+    background-color:burlywood;
+    transform: scale(1.05);
+}
+#footer1{
+    border-style: groove;
+   
+    display: flex;
+    background-color: #333;
+    text-align: center;
+    color:white;
+    margin-top: 150px;
+    height: 50px;
+
+}
+#footer2{
+    border-style: groove;
+   
+    display: flex;
+    background-color: #333;
+    text-align: center;
+    color:white;
+    margin-top: 70px;
+    height: 50px;
+
+}
+@media (max-width: 600px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 80px;
+    }
+
+    #ul1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: 100px;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+/* 
+#image-container {
+    max-width: 100%; 
+    overflow: hidden; 
+} */
+
+/* Image Styling */
+
+#logo:hover{
+    background-color:rgb(5, 87, 53);
+    transform: scale(1.05);
+}
+
+ #home1{
+    
+    display: flex; 
+    flex-direction: row;
+   
+    gap: 90px;
+    
+
+ }
+#home1 #info{
+    width: 500px;
+    margin: 100px 0px 0px 300px;
+
+}
+#home1 #info h2{
+   color: red;
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+
+}  
+#home1 #info p{
+    
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+ 
+ } 
+#home1 #info h2:hover{
+    color: aqua;
+    transform: scale(1.05);
+ 
+ }  
+ #home1 img {
+    width: auto; /* Adjust width based on container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image does not overflow its container */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    margin-left: 50px; /* Adjust as needed for layout */
+    overflow: hidden; /* Ensure no overflow from the container */
+}
+
+/* #home1 img {
+    border: none; 
+    max-width: 100%; 
+    height: auto; 
+} */
+
+button{
+    width: 100px;
+    height: 29px;
+    background-color:black;
+    color: white;
+    margin: 0px 0px 0px 300px;
+}
+span{
+    color: yellowgreen;
+}
+#list1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+}
+#p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#h1{
+    color: brown;
+    font-weight: bolder;
+    margin: 200px 0px 0px 20px;
+}
+/* #list{
+    
+} */
+#contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+#contianer{
+    margin: 0px 0px 0px 150px;
+    display: flex;
+    flex-direction: row;
+}
+#input{
+    margin: 250px 0px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+textarea{
+    width: 350px;
+    height: 150px;
+}
+
+#btn{
+    background-color: #333;
+    color: aliceblue;
+    width: 50px;
+    height: 30px;
+}
+#contianers{
+    margin: auto;
+    background-color: ;
+}
+#boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0px 0px 80px;
+
+    
+    
+
+}
+#me{
+    text-align: center;
+    color: blue;
+}
+#box{
+    border: solid;
+    border-color: red;
+    width: 300px;
+    height: 350px;
+    gap: 20px;
+
+}
+#box:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+}
+#title{
+    color: brown;
+    text-align: center;
+
+}
+#id{
+    text-align: center;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+#image{
+    width: 250px;
+    height: 150px;
+    margin: 5px 0px 0px 25px;
+
+}
+
